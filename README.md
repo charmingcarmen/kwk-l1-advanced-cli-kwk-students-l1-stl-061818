@@ -1,4 +1,4 @@
-## Advanced Command Line and Shell Scripting
+mc## Advanced Command Line and Shell Scripting
 
 ![simpsons grocery store](https://metrouk2.files.wordpress.com/2015/06/simpsons-2.gif)
 
@@ -25,35 +25,4 @@ Save and close the file and then run it in your terminal by typing `sh test_scri
 ### Challenge 1
 Using the mini-lesson above, write a bash script that will put all of the files in the delivery directory in their right locations. As part of the challenge:
 - You cannot `cd` into any directories, you must stay in the root directory of the project.
-- All commands should be written in a shell script called `stock_supermarket.sh`.
-
-## Part 2: Search for code inside files
-
-The `grep` command is awesome. It allows you to search through all the text inside files and returns the line that contains the text you're looking for. For example, create a new file in your development directory called `a_lot_of_text.txt`, and then copy and paste all the text from [this link](http://www.fullbooks.com/The-Adventures-of-Huckleberry-Finn-Complete1.html). Now, let's say we want to find all instances of the word 'dog'. We'd use the command:
-
-```bash
-grep dog a_lot_of_text.txt
-```
-
-This will show you all the lines that contain the word 'dog'.
-
-If you want to search the text of many files in many directories, you can use the recursive flag `-r` to go through all files in directories within the start directory:
-
-```
-grep -r dog big_directory_with_sub_directories
-```
-
-### Challenge 2
-
-Using the `grep` command, find out the following information:
-
-* What food is otherwise known as _gorp_?
-* Which food has the word _grapes_ in its text file?
-* Which food may or may not be _gluten free_, based on its file text.
-* Winston Churchill is hiding in a food's text file. What food?
-* What food is used to ward off vampires?
-* Name the food that has a joke about canteloupe hidden inside it.
-* What food has a youtube link inside of it?
-* What food has the word _sprinkles_ in it?
-
-<p data-visibility='hidden'>KWK-L1 Advanced Command Line and Shell Scripting</p>
+- All
